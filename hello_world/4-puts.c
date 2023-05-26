@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- *main - puts string
+ * main - puts string
+ *
+ * Return: 0
  */
 int main(void)
 {
