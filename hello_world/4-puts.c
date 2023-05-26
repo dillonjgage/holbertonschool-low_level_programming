@@ -1,6 +1,5 @@
 #include <stdio.h>
-/* my first C program using puts */
-int main(void)
+int main(void)/* C program using puts() */
 {
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
 
