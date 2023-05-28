@@ -14,7 +14,7 @@ int main(void)
 		alpha++;
 	}
 	while (alphaBET <= 'Z')
-	{	putchar(alpha);
+	{	putchar(alphaBET);
 		alphaBET++;
         }
 	putchar('\n');
