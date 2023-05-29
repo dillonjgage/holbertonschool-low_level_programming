@@ -2,6 +2,7 @@
 #define HEADER_F
 #include <stdio.h>
 #include <ctype.h>
+#include <stdlib.h>
 
 int _putchar(char c);
 void print_alphabet(void);
