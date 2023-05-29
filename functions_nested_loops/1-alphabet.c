@@ -1,9 +1,10 @@
-#include "main.h"
 /**
  * print_alphabet - print alphabet
  *
  * Return: 0 if successful
  */
+#include "main.h"
+
 void print_alphabet(void)
 {
 	char alpha = 'a';
