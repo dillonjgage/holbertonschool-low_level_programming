@@ -2,6 +2,8 @@
 /**
  * _islower - identifies if a char is lowercase
  *
+ * c - input to be identified
+ *
  * Return: 1 is yes 0 otherwise
  */
 int _islower(int c)
