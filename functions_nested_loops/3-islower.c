@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _islower - identifies if a char is lowercase
- * @c - input to be identified - parameter
+ * @c: input to be identified - parameter
  *
  * Return: 1 is yes 0 otherwise
  */
