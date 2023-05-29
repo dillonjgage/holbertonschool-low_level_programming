@@ -10,7 +10,7 @@ int main(void)
 	/**
 	 * Declare an array of integers call 'aray' with a length of 9
 	 */
-	int array[9] = {'_','p','u','t','c','h','a','r','\n'};
+	int array[9] = { '_','p','u','t','c','h','a','r','\n' };
 	/**
 	 * Declare and initialize a variable 'i' with the value 0
 	 */
