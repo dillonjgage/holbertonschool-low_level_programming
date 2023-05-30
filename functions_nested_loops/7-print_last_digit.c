@@ -7,6 +7,6 @@
  */
 int print_last_digit(int num)
 {
-	int rem = num % 10;
+	int rem = num % 100;
 	return (rem);
 }
