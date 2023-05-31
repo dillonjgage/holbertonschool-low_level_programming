@@ -23,21 +23,22 @@ void times_table(void)
                 _putchar(',');
                 _putchar(' ');
             }
-            else if (col != 10)
+            else if (result < 10 && col != 10)
             {
-                _putchar(result + '0');
-                _putchar(',');
                 _putchar(' ');
+		_putchar(result + '0');
+                _putchar(',');
                 _putchar(' ');
             }
             else
             {
                 _putchar(result + '0');
-            }
+	    }
 
-            _putchar('\n');
 	    col++;
         }
+
+	_putchar('\n');
         row++;
     }
 }
