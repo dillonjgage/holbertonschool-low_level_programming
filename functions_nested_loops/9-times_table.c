@@ -11,26 +11,27 @@ void times_table(void)
 	while (row <= 9)
 	{
 		int col = 0;
-		
+
 		if (col <= 9)
 		{
 			int result = row * col;
-			
-			_putchar(result);
-			
+
 			if (result >= 9 && col != 10)
 			{
+				_putchar(result);
 				_putchar(',');
 				_putchar(' ');
 			}
 			else if (result < 9 && col != 10)
 			{
+				_putchar(result);
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 			}
 			else
 			{
+				_putchar(result);
 				_putchar('\n');
 			}
 
