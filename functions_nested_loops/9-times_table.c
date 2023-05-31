@@ -17,20 +17,20 @@ void times_table(void)
 
 			if (result >= 9 && col != 10)
 			{
-				_putchar(result);
+				_putchar(result + '0');
 				_putchar(',');
 				_putchar(' ');
 			}
 			else if (result < 9 && col != 10)
 			{
-				_putchar(result);
+				_putchar(result + '0');
 				_putchar(',');
 				_putchar(' ');
 				_putchar(' ');
 			}
 			else
 			{
-				_putchar(result);
+				_putchar(result + '0');
 				_putchar('\n');
 			}
 
