@@ -6,14 +6,14 @@
  */
 void times_table(void)
 {
-	int i, mul, mul_results;
+	char i, mul, mul_results;
 	
-	for (i = 0; i < 10; i++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		for (mul = 0; mul < 10; mul++)
+		for (mul = '0'; mul <= '9'; mul++)
 		{
 			mul_results = i * mul;
-			_putchar('1');
+			_putchar(mul_results);
 		}
 		_putchar('\n');
 	}
