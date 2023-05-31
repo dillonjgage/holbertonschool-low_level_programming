@@ -15,14 +15,15 @@ void times_table(void)
 		if (col <= 9)
 		{
 			int result = row * col;
+			
 			_putchar(result);
 			
-			if (result >= 9 && row != 10)
+			if (result >= 9 && col != 10)
 			{
 				_putchar(',');
 				_putchar(' ');
 			}
-			else if (result < 9 && != 10)
+			else if (result < 9 && col != 10)
 			{
 				_putchar(',');
 				_putchar(' ');
