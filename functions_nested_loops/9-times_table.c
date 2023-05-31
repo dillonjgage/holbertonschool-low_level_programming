@@ -7,11 +7,13 @@
 void times_table(void)
 {
 	int row = 0;
-	int col = 0;
+	int col;
 
 	while (row <= 9)
 	{
-		if (col <= 9)
+		col = 0;
+
+		while (col <= 9)
 		{
 			int result = row * col;
 
