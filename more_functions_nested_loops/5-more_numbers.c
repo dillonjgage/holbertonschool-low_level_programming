@@ -16,15 +16,11 @@ void more_numbers(void)
 			int last = num % 10;
 			int first = num / 10;
 
-			if (num <= 9)
-			{
-				_putchar('0'+last);
-			}
-			else
+			if (num > 9)
 			{
 				_putchar('0'+first);
-				_putchar('0'+last);
 			}
+			_putchar('0'+last);
 		}
 		_putchar('\n');
 	}
