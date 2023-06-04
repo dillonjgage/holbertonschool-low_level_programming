@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - function that draws a straight line in the terminal
+ * @n: input number
  *
  * Return: empty
  */
@@ -17,7 +18,7 @@ void print_line(int n)
 		}
 		_putchar('\n');
 	}
-	else 
+	else
 	{
 		_putchar('\n');
 	}
