@@ -19,15 +19,18 @@ void print_triangle(int size)
 			{
 				_putchar(32);
 				space--;
-				
-				while (fill <= length)
-				{
-					_putchar(35);
-					fill++;
-				}
+			}
+			while (fill <= length)
+			{
+				_putchar(35);
+				fill++;
 			}
 			_putchar('\n');
 			length++;
 		}
+	}
+	else
+	{
+		_putchar('\n');
 	}
 }
