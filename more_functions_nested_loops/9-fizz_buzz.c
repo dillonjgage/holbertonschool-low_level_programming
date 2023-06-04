@@ -3,11 +3,13 @@
  * main - print num 1 through 100
  * mul of 3 print Fizz, mul of 5 print Buzz, mul of both 3 and 5 print FizzBuzz
  *
- * Return: empty
+ * Return: 0
  */
-void main(void)
+int main(void)
 {
-	for (int num = 1; num < 101; num++)
+	int num;
+
+	for (num = 1; num < 101; num++)
 	{
 		if (num % 3 == 0 && num % 5 == 0)
 		{
@@ -26,4 +28,5 @@ void main(void)
 			printf("%d ", num);
 		}
 	}
+	return (0);
 }
