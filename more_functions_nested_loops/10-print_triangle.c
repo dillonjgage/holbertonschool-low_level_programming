@@ -1,8 +1,9 @@
 #include "main.h"
 /**
+ * print_triangle - prints a triangle based on size input
+ * @size: size input
  *
- *
- *
+ * Return: empty
  */
 void print_triangle(int size)
 {
