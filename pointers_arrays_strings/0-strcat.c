@@ -1,8 +1,10 @@
 #include "main.h"
 /**
+ * _strcat - combine 2 strings
+ * @dest: destination string
+ * @src: source string to be added to destination string
  *
- *
- *
+ * Return: updated string
  */
 char *_strcat(char *dest, char *src)
 {
