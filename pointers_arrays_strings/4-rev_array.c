@@ -14,14 +14,16 @@ void reverse_array(int *a, int n)
 	while (i < n)
 	{
 		temp = a[n - 1];
-		/** copied from a so it is safe
+		/**
+		 * copied from a so it is safe
 		 */
 		a[n - 1] = a[i];
 		/**
 		 * a is copied over since it is safe
 		 */
 		a[i] = temp;
-		/** a grabs the copy from temp
+		/**
+		 * a grabs the copy from temp
 		 * its like a triagle!
 		 */
 		i++;
