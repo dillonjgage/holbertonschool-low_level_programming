@@ -1,8 +1,9 @@
 #include "main.h"
 /**
+ * string_toupper - checks for lowercase and sets to upper
+ * @p: pointer to string being checked
  *
- *
- *
+ * Return: p - updated string
  */
 char *string_toupper(char *p)
 {
