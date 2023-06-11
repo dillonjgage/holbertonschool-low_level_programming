@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * comp_string - cap the first letter of each word
+ * cap_string - cap the first letter of each word
  * @p: pointer to existing string
  *
  * Return: p - updated string
