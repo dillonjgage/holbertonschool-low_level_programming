@@ -12,10 +12,11 @@ char *cap_string(char *p)
 	{
 		if (i == 0)
 		{
-			if (p[i] > 96 && p[i] < 123)
+			if (p[i] >= 'a' && p[i] <= 'z')
 			{
 				p[i] = p[i] - 32;
 			}
+			continue;
 		}
 		if (p[i] == ' ' || p[i] == '\t' || p[i] == '\n' ||
 		p[i] == ',' || p[i] == ';' || p[i] == '.' ||
@@ -25,16 +26,10 @@ char *cap_string(char *p)
 		{
 			i++;
 
-			if (p[i] > 96 && p[i] < 123)
+			if (p[i] >= 'a' && p[i] <= 'z')
 			{
-				p[i] = p[i] -32;
-			}
-		}
-		else
-		{
-			if (p[i] > 64 && p[i] < 91)
-			{
-				p[i] = p[i] + 32;
+				p[i] = p[i] - 32;
+				continue;
 			}
 		}
 	}
