@@ -1,8 +1,9 @@
 #include "main.h"
 /**
+ * comp_string - cap the first letter of each word
+ * @p: pointer to existing string
  *
- *
- *
+ * Return: p - updated string
  */
 char *cap_string(char *p)
 {
