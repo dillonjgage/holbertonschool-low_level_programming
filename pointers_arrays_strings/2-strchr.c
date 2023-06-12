@@ -9,32 +9,14 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char found[98];
-	int ii = 0;
 
 	for (i = 0; s[i] <= c; i++)
 	{
 		if (s[i] == c)
 		{
-			while (s[i] < '\0')
-			{
-				found[ii] = s[i];
-				i++;
-				ii++;
-			}
-		}
-		if (s[i] == '\0')
-		{
-			break;
+			return (s + i);
 		}
 	}
-	if (found[ii] == s[i])
-	{
-		s = found;
-	}
-	else
-	{
-		s = '\0';
-	}
-	return (s);
+	return ('\0');
 }
+		
