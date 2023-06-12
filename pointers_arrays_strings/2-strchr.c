@@ -16,7 +16,7 @@ char *_strchr(char *s, char c)
 	{
 		if (s[i] == c)
 		{
-			while (s[i] <= '\0')
+			while (s[i] < '\0')
 			{
 				found[ii] = s[i];
 				i++;
@@ -28,10 +28,13 @@ char *_strchr(char *s, char c)
 			break;
 		}
 	}
-	if (found[ii] == '\0')
+	if (found[ii] == s[i])
 	{
 		s = found;
-		return (s);
 	}
-	return (0);
+	else
+	{
+		s = '\0';
+	}
+	return (s);
 }
