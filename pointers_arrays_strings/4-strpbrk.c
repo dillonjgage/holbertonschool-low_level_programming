@@ -8,24 +8,19 @@
  */
 char *_strpbrk(char *s, char *accept)
 {
-	char tmp[98];
 	int i = 0;
 	int ii;
-	int iii = 0;
 
-	while (s[i] > '\0')
+	while (s[i])
 	{
-		for (ii = 0; accept[ii] > '\0'; ii++)
+		for (ii = 0; accept[ii]; ii++)
 		{
 			if (s[i] == accept[ii])
 			{
-				tmp[iii] = s[i];
-				iii++;
-				break;
+				return(s);
 			}
 		}
 		i++;
 	}
-	s = tmp;
-	return (s);
+	return ('\0');
 }
