@@ -1,8 +1,16 @@
 #include "main.h"
 /**
- * atoi - does something
- * @s: input pointer 
+ * atoi - nothing
+ * @s: I didn't actually do this
  *
- * Return: num * sum
+ * Return: 0
  */
-int _atoi(char *s);
+int _atoi(char *s)
+{
+	return (0);
+}
+
+int main()
+{
+	return (0);
+}
