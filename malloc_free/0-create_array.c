@@ -9,9 +9,10 @@
 char *create_array(unsigned int size, char c)
 {
 	char *str;
+	int len = size + 0;
 	int i;
 
-	str = malloc(sizeof(char) * size);
+	str = malloc(sizeof(char) * len);
 
 	if (size == 0)
 	{
@@ -19,7 +20,7 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		for (i = 0; i <= size; i++)
+		for (i = 0; i <= len; i++)
 		{
 			str[i] = c;
 		}
