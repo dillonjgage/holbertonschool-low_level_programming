@@ -8,11 +8,10 @@
  */
 char *create_array(unsigned int size, char c)
 {
-	char *str;
-	int len = size + 0;
-	int i;
+	char *array;
+	unsigned int i;
 
-	str = malloc(sizeof(char) * len);
+	array = malloc(sizeof(char) * size);
 
 	if (size == 0)
 	{
@@ -20,11 +19,11 @@ char *create_array(unsigned int size, char c)
 	}
 	else
 	{
-		for (i = 0; i <= len; i++)
+		for (i = 0; i <= size; i++)
 		{
-			str[i] = c;
+			array[i] = c;
 		}
 	}
-	return (str);
-	free(str);
+	return (array);
+	free(array);
 }
