@@ -9,7 +9,7 @@
 int *array_range(int min, int max)
 {
 	int *array;
-	int i = 0, len;
+	int i, len;
 
 	if (min > max)
 		return (NULL);
@@ -21,11 +21,8 @@ int *array_range(int min, int max)
 	if (array == NULL)
 		return (NULL);
 
-	while (i < len)
-	{
+	for (i = 0; i < len; i++)
 		array[i] = min++;
-		i++;
-	}
 
 	array[i] = '\0';
 
